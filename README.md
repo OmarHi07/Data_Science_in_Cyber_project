@@ -49,24 +49,23 @@ The prepared processed CSV file is included in this repository so that the noteb
 README.md
 requirements.txt
 phishing_detection_critical_evaluation.ipynb
-phishing_detection_critical_evaluation_report.pdf
+Cyber_project_report.pdf
 5.urldata.csv
 URLFeatureExtraction.py
 results/
-figures/
 ```
 
 ### Main Files
 
 | File                                                | Description                                                   |
 | --------------------------------------------------- | ------------------------------------------------------------- |
-| `phishing_detection_critical_evaluation_report.pdf` | Final written report                                          |
+| `Cyber_project_report.pdf`                          | Final written report                                          |
 | `phishing_detection_critical_evaluation.ipynb`      | Complete analysis notebook                                    |
 | `5.urldata.csv`                                     | Processed dataset used for model training and evaluation      |
 | `URLFeatureExtraction.py`                           | Supporting feature-extraction script from the original source |
 | `requirements.txt`                                  | Required Python packages                                      |
 | `results/`                                          | Exported experiment tables                                    |
-| `figures/`                                          | Selected figures used in the report                           |
+                                      
 
 ## Models Evaluated
 
@@ -104,8 +103,8 @@ The notebook also evaluates:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/phishing-detection-critical-evaluation.git
-cd phishing-detection-critical-evaluation
+git clone https://github.com/OmarHi07/Data_Science_in_Cyber_project.git
+cd Data_Science_in_Cyber_project
 ```
 
 Create and activate a virtual environment:
@@ -161,7 +160,7 @@ The final conclusion is that the selected source is a useful educational baselin
 The complete report is available here:
 
 ```text
-phishing_detection_critical_evaluation_report.pdf
+Cyber_project_report.pdf
 ```
 
 ## Author
