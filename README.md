@@ -2,42 +2,40 @@
 
 ## Final Updated Version After Feedback
 
-The final updated version of the project is located in the `v2/` folder.
+The final updated version of the project is located in the `V2/` folder.
 
-This folder contains the revised notebook, the cleaned feature-extraction helper module, the unit tests, the pinned requirements file, the reproducibility script, and the generated result files.
+This folder contains the revised notebook, the cleaned feature-extraction helper module, the pinned requirements file, the reproducibility script, the generated result files, and the generated figures.
 
 The main updated notebook is:
 
 ```text
-v2/phishing_detection_critical_evaluation_v2.ipynb
+V2/phishing_detection_critical_evaluation_v2.ipynb
 ```
-
-The notebook includes the original analysis together with additional sections added after feedback. To make the additions easy to identify, each new feedback-based section starts with a red markdown cell explaining what was added. A red markdown separator containing `###################` marks the end of the added feedback section. After that separator, the notebook continues with content that was already present in the earlier version.
 
 The automatic reproducibility script is:
 
 ```text
-v2/run_all_experiments.py
+V2/run_all_experiments.py
 ```
 
-It executes the revised notebook and verifies that the expected result CSV files and figures are generated.
+The notebook includes the original analysis together with additional sections added after feedback. To make the additions easy to identify, each new feedback-based section starts with a red markdown cell explaining what was added. A red markdown separator containing `###################` marks the end of the added feedback section. After that separator, the notebook continues with material that was already present in the earlier version.
 
-The submitted report was also updated after the feedback. To make the changes easy to find, the new report sections were added near the end of the original report. In the PDF report, the feedback-based additions start on page 43.
+The submitted report was also updated after the feedback. To make the changes easy to find, the new report sections were added near the end of the original report. In the PDF report, the feedback-based additions start on **page 43**.
 
-Requirements Note
+## Requirements Note
 
-The default v2/requirements.txt file contains the core dependencies needed to run the reproducibility pipeline and the main experiments.
+The default `V2/requirements.txt` file contains the core dependencies needed to run the reproducibility pipeline and the main experiments.
 
-It intentionally does not include TensorFlow because TensorFlow is a large package, takes a long time to install, and may cause compatibility issues on some Python versions. TensorFlow is only needed for rerunning the optional source-style autoencoder reproduction. The main reproducibility pipeline, repeated validation, threshold analysis, realistic-prevalence projection, feature ablation, EDA outputs, figures, and unit tests can be run without TensorFlow.
+It intentionally does **not** include TensorFlow because TensorFlow is a large package, takes a long time to install, and may cause compatibility issues on some Python versions. TensorFlow is only needed for rerunning the optional source-style autoencoder reproduction. The main reproducibility pipeline, repeated validation, threshold analysis, realistic-prevalence projection, feature ablation, EDA outputs, figures, and unit tests can be run without TensorFlow.
 
 ## Reproducing the Updated Results
 
 To reproduce the updated project results, run the commands below from the repository root.
 
-```bash
-cd v2
+```powershell
+cd V2
 python -m venv .venv
-.venv\Scripts\activate
+.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip setuptools wheel
 python -m pip install -r requirements.txt
 python run_all_experiments.py
@@ -50,11 +48,15 @@ All expected output files were generated successfully.
 Pipeline completed successfully.
 ```
 
-The script executes the notebook, saves an executed copy, copies important CSV outputs into the `results/` directory, and verifies the expected figures and result files.
+The script executes the revised notebook, saves an executed copy, copies important CSV outputs into the `results/` directory, and verifies the expected figures and result files.
 
-The project also includes unit tests for the cleaned feature-extraction helper functions:
+## Running Unit Tests
 
-```bash
+The project includes unit tests for the cleaned feature-extraction helper functions.
+
+Run the tests from the repository root:
+
+```powershell
 python -m pytest -q
 ```
 
