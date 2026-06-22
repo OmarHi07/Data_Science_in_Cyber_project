@@ -22,6 +22,14 @@ v2/run_all_experiments.py
 
 It executes the revised notebook and verifies that the expected result CSV files and figures are generated.
 
+The submitted report was also updated after the feedback. To make the changes easy to find, the new report sections were added near the end of the original report. In the PDF report, the feedback-based additions start on page 43.
+
+Requirements Note
+
+The default v2/requirements.txt file contains the core dependencies needed to run the reproducibility pipeline and the main experiments.
+
+It intentionally does not include TensorFlow because TensorFlow is a large package, takes a long time to install, and may cause compatibility issues on some Python versions. TensorFlow is only needed for rerunning the optional source-style autoencoder reproduction. The main reproducibility pipeline, repeated validation, threshold analysis, realistic-prevalence projection, feature ablation, EDA outputs, figures, and unit tests can be run without TensorFlow.
+
 ## Reproducing the Updated Results
 
 To reproduce the updated project results, run the commands below from the repository root.
