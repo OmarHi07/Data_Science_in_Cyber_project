@@ -1,4 +1,4 @@
-```python
+
 """
 Cleaned feature-extraction helpers for the phishing-detection project.
 
@@ -406,4 +406,4 @@ def feature_dict(
     )
 
     return dict(zip(FEATURE_COLUMNS, values))
-```
+
