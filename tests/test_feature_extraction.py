@@ -1,4 +1,4 @@
-```python
+
 """
 Unit tests for cleaned phishing feature-extraction helpers.
 
@@ -157,4 +157,4 @@ def test_full_dataset_schema_is_domain_plus_features_plus_label():
     assert clean.FULL_DATASET_COLUMNS[-1] == "Label"
     assert clean.FULL_DATASET_COLUMNS[1:-1] == clean.FEATURE_COLUMNS
     assert len(clean.FULL_DATASET_COLUMNS) == 18
-```
+
