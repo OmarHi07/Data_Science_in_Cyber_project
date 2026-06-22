@@ -145,6 +145,15 @@ phishing_detection_critical_evaluation.ipynb
 
 Then run the notebook cells from top to bottom.
 
+## Running Unit Tests
+
+The project includes unit tests for the cleaned feature-extraction helper functions.
+
+To run the tests from the repository root:
+
+```bash
+python -m pytest -q
+
 ## Main Findings
 
 The original source reports that XGBoost achieves approximately 86.4% testing accuracy. This result was reproduced approximately: the reproduced XGBoost model achieved approximately 86.3% accuracy under an original-style random split.
