@@ -1,0 +1,2 @@
+Model,Train Accuracy,Test Accuracy,Metric Type
+Autoencoder,0.032875001430511475,0.032999999821186066,"Reconstruction accuracy, not phishing-classification accuracy"

@@ -1,0 +1,11 @@
+Model,Threshold Selection,Prevalence,Projected Precision,Expected FP per 1M URLs,Expected TP per 1M URLs
+XGBoost — Full 16 Features,Default threshold,0.001,0.001 ± 0.000,820027 ± 20107,984 ± 4
+XGBoost — Full 16 Features,Default threshold,0.01,0.012 ± 0.000,812639 ± 19926,9844 ± 39
+XGBoost — Full 16 Features,Default threshold,0.05,0.059 ± 0.001,779805 ± 19121,49221 ± 195
+XGBoost — Full 16 Features,Default threshold,0.1,0.118 ± 0.003,738763 ± 18114,98442 ± 391
+XGBoost — Full 16 Features,Default threshold,0.5,0.546 ± 0.006,410424 ± 10063,492208 ± 1954
+XGBoost — Full 16 Features,Validation-selected threshold,0.001,0.004 ± 0.002,325832 ± 132483,800 ± 52
+XGBoost — Full 16 Features,Validation-selected threshold,0.01,0.039 ± 0.017,322897 ± 131290,7997 ± 516
+XGBoost — Full 16 Features,Validation-selected threshold,0.05,0.162 ± 0.051,309850 ± 125985,39985 ± 2579
+XGBoost — Full 16 Features,Validation-selected threshold,0.1,0.278 ± 0.067,293543 ± 119354,79970 ± 5159
+XGBoost — Full 16 Features,Validation-selected threshold,0.5,0.744 ± 0.058,163079 ± 66308,399851 ± 25793

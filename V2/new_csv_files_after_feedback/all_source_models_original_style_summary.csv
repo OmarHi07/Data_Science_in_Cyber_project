@@ -1,0 +1,7 @@
+Model,Train Accuracy,Test Accuracy,Metric Type
+Multilayer Perceptron,0.868625,0.8465,Phishing-classification accuracy
+XGBoost,0.8715,0.8455,Phishing-classification accuracy
+Autoencoder,0.8522499799728394,0.8450000286102295,"Reconstruction accuracy, not phishing-classification accuracy"
+Random Forest,0.82125,0.7965,Phishing-classification accuracy
+Decision Tree,0.81875,0.7915,Phishing-classification accuracy
+SVM,0.807625,0.78,Phishing-classification accuracy

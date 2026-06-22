@@ -1,0 +1,7 @@
+Model,Train Accuracy,Test Accuracy,Metric Type
+Multilayer Perceptron,0.863875,0.867,Phishing-classification accuracy
+XGBoost,0.86775,0.86,Phishing-classification accuracy
+Random Forest,0.813,0.8215,Phishing-classification accuracy
+Decision Tree,0.81225,0.8175,Phishing-classification accuracy
+SVM,0.800875,0.807,Phishing-classification accuracy
+Autoencoder,,,Skipped because TensorFlow is unavailable

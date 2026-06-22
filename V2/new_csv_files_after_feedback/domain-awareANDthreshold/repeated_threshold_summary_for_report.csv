@@ -1,0 +1,5 @@
+Model,Threshold Selection,Accuracy,Balanced Accuracy,Precision,Recall,Specificity,False Positive Rate,MCC,Selected Threshold
+XGBoost — Full 16 Features,Validation-selected threshold,0.784 ± 0.030,0.737 ± 0.043,0.951 ± 0.017,0.800 ± 0.052,0.674 ± 0.133,0.326 ± 0.133,0.362 ± 0.036,0.774 ± 0.099
+XGBoost — Full 16 Features,Default threshold,0.887 ± 0.007,0.582 ± 0.010,0.897 ± 0.007,0.984 ± 0.004,0.179 ± 0.020,0.821 ± 0.020,0.290 ± 0.030,0.774 ± 0.099
+XGBoost — URL-Only Features,Validation-selected threshold,0.691 ± 0.011,0.796 ± 0.011,0.987 ± 0.006,0.657 ± 0.016,0.934 ± 0.033,0.066 ± 0.033,0.391 ± 0.016,0.881 ± 0.021
+XGBoost — URL-Only Features,Default threshold,0.878 ± 0.006,0.501 ± 0.001,0.879 ± 0.006,0.998 ± 0.001,0.004 ± 0.003,0.996 ± 0.003,0.012 ± 0.018,0.881 ± 0.021

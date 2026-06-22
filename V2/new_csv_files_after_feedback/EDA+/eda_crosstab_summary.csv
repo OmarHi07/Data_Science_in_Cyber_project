@@ -1,0 +1,13 @@
+Feature,Legitimate prevalence of value 1,Phishing prevalence of value 1,Difference phishing - legitimate
+Prefix/Suffix,0.0052,0.1812,0.176
+URL_Length,1.0,0.5468,-0.45320000000000005
+TinyURL,0.0694,0.1112,0.04179999999999999
+Have_At,0.005,0.0402,0.0352
+Have_IP,0.0,0.011,0.011
+iFrame,0.0626,0.1192,0.0566
+Mouse_Over,0.0538,0.0794,0.025599999999999998
+Right_Click,1.0,0.9986,-0.0013999999999999568
+https_Domain,0.0,0.0004,0.0004
+Redirection,0.0132,0.0138,0.0005999999999999998
+DNS_Record,0.096,0.1056,0.009599999999999997
+Web_Forwards,0.118,0.0926,-0.025399999999999992

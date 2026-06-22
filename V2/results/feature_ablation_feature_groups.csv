@@ -1,0 +1,6 @@
+Feature Subset,Number of Features,Features
+Address-Bar Features Only,8,"Have_IP, Have_At, URL_Length, URL_Depth, Redirection, https_Domain, TinyURL, Prefix/Suffix"
+Domain Features Only,4,"DNS_Record, Web_Traffic, Domain_Age, Domain_End"
+HTML/JavaScript Features Only,4,"iFrame, Mouse_Over, Right_Click, Web_Forwards"
+URL-Only Features,8,"Have_IP, Have_At, URL_Length, URL_Depth, Redirection, https_Domain, TinyURL, Prefix/Suffix"
+Full 16-Feature Set,16,"Have_IP, Have_At, URL_Length, URL_Depth, Redirection, https_Domain, TinyURL, Prefix/Suffix, DNS_Record, Web_Traffic, Domain_Age, Domain_End, iFrame, Mouse_Over, Right_Click, Web_Forwards"

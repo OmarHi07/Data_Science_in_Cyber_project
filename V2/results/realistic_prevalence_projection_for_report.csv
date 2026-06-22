@@ -1,0 +1,25 @@
+Model,Threshold Selection,Prevalence,Projected Precision,Expected FP per 1M URLs,Expected TP per 1M URLs
+XGBoost — Full 16 Features,Default threshold,0.001,0.001 ± 0.000,820027 ± 20107,984 ± 4
+XGBoost — Full 16 Features,Default threshold,0.005,0.006 ± 0.000,816743 ± 20026,4922 ± 20
+XGBoost — Full 16 Features,Default threshold,0.01,0.012 ± 0.000,812639 ± 19926,9844 ± 39
+XGBoost — Full 16 Features,Default threshold,0.05,0.059 ± 0.001,779805 ± 19121,49221 ± 195
+XGBoost — Full 16 Features,Default threshold,0.1,0.118 ± 0.003,738763 ± 18114,98442 ± 391
+XGBoost — Full 16 Features,Default threshold,0.5,0.546 ± 0.006,410424 ± 10063,492208 ± 1954
+XGBoost — Full 16 Features,Validation-selected threshold,0.001,0.004 ± 0.002,325832 ± 132483,800 ± 52
+XGBoost — Full 16 Features,Validation-selected threshold,0.005,0.020 ± 0.009,324528 ± 131953,3999 ± 258
+XGBoost — Full 16 Features,Validation-selected threshold,0.01,0.039 ± 0.017,322897 ± 131290,7997 ± 516
+XGBoost — Full 16 Features,Validation-selected threshold,0.05,0.162 ± 0.051,309850 ± 125985,39985 ± 2579
+XGBoost — Full 16 Features,Validation-selected threshold,0.1,0.278 ± 0.067,293543 ± 119354,79970 ± 5159
+XGBoost — Full 16 Features,Validation-selected threshold,0.5,0.744 ± 0.058,163079 ± 66308,399851 ± 25793
+XGBoost — URL-Only Features,Default threshold,0.001,0.001 ± 0.000,994617 ± 3117,998 ± 1
+XGBoost — URL-Only Features,Default threshold,0.005,0.005 ± 0.000,990635 ± 3104,4988 ± 6
+XGBoost — URL-Only Features,Default threshold,0.01,0.010 ± 0.000,985657 ± 3089,9977 ± 11
+XGBoost — URL-Only Features,Default threshold,0.05,0.050 ± 0.000,945832 ± 2964,49883 ± 57
+XGBoost — URL-Only Features,Default threshold,0.1,0.100 ± 0.000,896052 ± 2808,99766 ± 114
+XGBoost — URL-Only Features,Default threshold,0.5,0.501 ± 0.001,497806 ± 1560,498831 ± 571
+XGBoost — URL-Only Features,Validation-selected threshold,0.001,0.017 ± 0.008,66227 ± 32907,657 ± 16
+XGBoost — URL-Only Features,Validation-selected threshold,0.005,0.078 ± 0.029,65962 ± 32775,3287 ± 80
+XGBoost — URL-Only Features,Validation-selected threshold,0.01,0.140 ± 0.046,65631 ± 32611,6575 ± 160
+XGBoost — URL-Only Features,Validation-selected threshold,0.05,0.427 ± 0.080,62979 ± 31293,32873 ± 801
+XGBoost — URL-Only Features,Validation-selected threshold,0.1,0.593 ± 0.082,59664 ± 29646,65747 ± 1603
+XGBoost — URL-Only Features,Validation-selected threshold,0.5,0.916 ± 0.033,33147 ± 16470,328733 ± 8014

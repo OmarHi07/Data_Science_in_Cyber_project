@@ -1,0 +1,5 @@
+Question,Answer
+Does the processed dataset contain temporal columns?,No
+Detected possible temporal columns,None
+Can true temporal validation be performed?,"No, not from the supplied processed dataset."
+Reason,"The dataset does not include collection timestamps, discovery times, publication dates, campaign identifiers, or chronological ordering."
