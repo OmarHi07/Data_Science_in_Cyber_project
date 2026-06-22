@@ -1,5 +1,64 @@
 # Phishing Website Detection — Critical Evaluation and Reproduction Study
 
+## Final Updated Version After Feedback
+
+The final updated version of the project is located in the `v2/` folder.
+
+This folder contains the revised notebook, the cleaned feature-extraction helper module, the unit tests, the pinned requirements file, the reproducibility script, and the generated result files.
+
+The main updated notebook is:
+
+```text
+v2/phishing_detection_critical_evaluation_v2.ipynb
+```
+
+The notebook includes the original analysis together with additional sections added after feedback. To make the additions easy to identify, each new feedback-based section starts with a red markdown cell explaining what was added. A red markdown separator containing `###################` marks the end of the added feedback section. After that separator, the notebook continues with content that was already present in the earlier version.
+
+The automatic reproducibility script is:
+
+```text
+v2/run_all_experiments.py
+```
+
+It executes the revised notebook and verifies that the expected result CSV files and figures are generated.
+
+## Reproducing the Updated Results
+
+To reproduce the updated project results, run the commands below from the repository root.
+
+```bash
+cd v2
+python -m venv .venv
+.venv\Scripts\activate
+python -m pip install --upgrade pip setuptools wheel
+python -m pip install -r requirements.txt
+python run_all_experiments.py
+```
+
+Expected final output:
+
+```text
+All expected output files were generated successfully.
+Pipeline completed successfully.
+```
+
+The script executes the notebook, saves an executed copy, copies important CSV outputs into the `results/` directory, and verifies the expected figures and result files.
+
+The project also includes unit tests for the cleaned feature-extraction helper functions:
+
+```bash
+python -m pytest -q
+```
+
+Expected result:
+
+```text
+13 passed
+```
+
+The tests cover IP-address detection, iframe detection, right-click detection, WHOIS fallback behavior, and output schema consistency.
+
+
 ## Project Description
 
 This repository contains the final project for the course **Cybersecurity for Data Science**.
