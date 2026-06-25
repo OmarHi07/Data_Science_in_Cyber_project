@@ -1,5 +1,39 @@
 # Phishing Website Detection — Critical Evaluation and Reproduction Study
 
+## External Validation Addendum
+
+An additional external-validation experiment was added after the final feedback.
+
+The experiment is located in:
+
+```text
+V2/external_validation/
+```
+
+It uses the PhiUSIIL Phishing URL Dataset as an independent second dataset. The experiment compares:
+
+1. Training and testing within PhiUSIIL using URL-only features.
+2. Training on the original tutorial dataset and testing directly on PhiUSIIL.
+
+This addendum directly addresses the remaining limitation that the original project did not validate its conclusions on a second independent phishing dataset.
+
+To run the external validation:
+
+```powershell
+cd V2
+.venv\Scripts\Activate.ps1
+cd external_validation
+python phiusiil_external_validation.py
+```
+
+The output files are saved under:
+
+```text
+V2/external_validation/results/
+V2/external_validation/figures/
+```
+
+
 ## Final Updated Version After Feedback
 
 The final updated version of the project is located in the `V2/` folder.
